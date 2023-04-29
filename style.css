@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+.header{
+    text-align: center;
+    padding: 1rem;
+}
+#start{
+    display: flex;
+    justify-content: center;
+}
+#start i{
+    color: white;
+    transition: 0.15s ease-out;
+}
+#start-btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #2825b2;
+    color: white;
+    border: 1px solid #2825b2;
+    border-radius: 16px;
+    transition: 0.15s ease-out;
+}
+#start-btn:hover{
+    color: #2825b2;
+    background-color: white;
+}
+#start-btn:active{
+    background-color: #2825b2;
+    color: white;
+}
+#start-btn:hover i{
+    color: #2825b2;
+}
+#start-btn:active i{
+    color: white;
+}
+#de-bai{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    margin-top: 5vh;
+}
+#de-bai .bai{
+    text-align: center;
+    border: 5px solid #202437;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+#de-bai .bai h1{
+    font-weight: 800;
+    font-size: 50px;
+    /* line-height: 15vh; */
+    text-align: justify;
+}
+#de-bai .bai label{
+    font-weight: 600;
+    font-size: 30px;
+    margin-right: 1.5rem;
+}
+#de-bai .bai input{
+    width: 30%;
+    height: 40px;
+    font-size: 21px;
+    padding: 5px;
+}
+#de-bai .bai .submit{
+    color: white;
+    background-color: #202437;
+    margin-top: 6vh;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid #202437;
+    border-radius: 16px;
+    transition: 0.2s ease-in;
+}
+#de-bai .bai .submit i{
+    color: white;
+    transition: 0.2s ease-in;
+}
+#de-bai .bai .submit:hover{
+    background-color: white;
+    color: #202437;
+}
+#de-bai .bai .submit:hover i{
+    color: #202437;
+}
+#de-bai .bai .submit:active{
+    color: white;
+    background-color: #202437;
+}
+#de-bai .bai .submit:active i{
+    color: white;
+}
+#de-bai .bai .submit:disabled,
+#de-bai .bai .submit:disabled:hover{
+    color: #f8f8f8;
+    background-color: #4c4e5a;
+}
+#de-bai .bai .submit:disabled i,
+#de-bai .bai .submit:disabled:hover i{
+    color: #f8f8f8;
+}
+.footer{
+    margin-top: 5vh;
+}
