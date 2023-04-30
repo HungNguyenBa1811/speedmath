@@ -33,6 +33,17 @@
     background-color: #2825b2;
     color: white;
 }
+#start-btn:disabled,
+#start-btn:disabled:hover{
+    background-color: #7371ff;
+    border-color:  #7371ff;
+    color: #f8f8f8;
+}
+#start-btn:disabled i,
+#start-btn:disabled:hover i{
+    color: #f8f8f8;
+}
+
 #start-btn:hover i{
     color: #2825b2;
 }
@@ -80,6 +91,7 @@
     border: 1px solid #202437;
     border-radius: 16px;
     transition: 0.2s ease-in;
+    
 }
 #de-bai .bai .submit i{
     color: white;
@@ -108,6 +120,43 @@
 #de-bai .bai .submit:disabled:hover i{
     color: #f8f8f8;
 }
+#timer{
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 60px;
+    cursor: move;
+}
+#timer i{
+    padding: 8px 0;
+}
+#timer p{
+    margin-bottom: 0;
+}
 .footer{
     margin-top: 5vh;
+}
+.wrong{
+    transition: 0.2s ease-in-out;
+    background-color: #e74c3c !important;
+    border-color: #e74c3c !important;
+    color: #f1f1f1 !important;
+}
+.true{
+    transition: 0.2s ease-in-out;
+    background-color: #2ecc71 !important;
+    border-color: #2ecc71 !important;
+    color: #f1f1f1 !important;
+}
+.bool{
+    padding: 15px 0 0 0;
+}
+.hide{
+    display: none !important;
 }
